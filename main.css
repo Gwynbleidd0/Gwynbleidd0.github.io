@@ -1,0 +1,112 @@
+body {
+    margin:0;
+    background: url("images/background.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header {
+    background:#C9283E;
+    width: 100%;
+    height: 200px;
+    border-bottom: 10px solid #820333;
+}
+.picture {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+
+}
+.textShow {
+      color: white;
+    text-shadow: #2E112D 0 0 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    position:relative;
+    top: 230px;
+    text-align: center;
+}
+.button {
+    width: 70px;
+    height: 20px;
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    position:relative;
+    top: 260px;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.content {
+    width: 100%;
+    height: 900px;
+    background:#C9283E;
+    border-top: 10px solid #820333;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 10px solid #820333;
+}
+.ContBlock {
+    width: 20%;
+    height: 400px;
+    float: left;
+    margin-left:10%;
+    margin-top: 50px;
+    background: white;
+    border-bottom: 10px solid #820333;
+
+}
+#C1 {
+    width: 100%;
+    height: 300px;
+    background: url("images/bg.jpg") no-repeat;
+    background-size: cover; 
+
+}
+
+#C2 {
+    width: 100%;
+    height: 300px;
+    background: url("images/bg2.jpg") no-repeat;
+    background-size: cover; 
+}
+#C3 {
+    width: 100%;
+    height: 300px;
+    background: url("images/bg3.jpg") no-repeat;
+    background-size: cover; 
+}
+.ContBlock2 {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 200px;
+    background: white;
+    border-bottom: 10px solid #820333;
+    position:relative;
+    top: 550px;
+}
+.sv {
+    height: 100px;
+}
+.scroll {
+    width:100%;
+    height: 30px;
+    background: #F0433A;
+    position: relative;
+    top: 70px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+.cont3 {
+    width: 100%;
+    height: 500px;
+    background:#C9283E;
+    border-top: 10px solid #820333;
+}
