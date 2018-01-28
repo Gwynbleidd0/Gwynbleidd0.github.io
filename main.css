@@ -1,6 +1,7 @@
 body, html{
     margin:0;
     padding:0;
+    min-width: 1000px;
 }
 .header {
     width: 100%;
@@ -45,7 +46,7 @@ body, html{
 }
 .cont {
     width: 100%;
-    height: 1500px;
+    height: auto;
     background:#252525;
 
     
@@ -59,7 +60,7 @@ body, html{
     left: 12%;
     top: 50px;
     bottom: 150px;
-    
+    padding-bottom: 500px;
 }
 .cont-cage {
     width: 250px;
@@ -247,6 +248,76 @@ body, html{
     bottom:0;
     margin: 0;
 }
-.nav-block:nth-child(4) {
+.nav-enter {
     background: #2096da;
+}
+a .nav-block {
+    color: white;
+}
+a .nav-block:hover {
+    background: #3a3c3d;
+}
+.creative-block {
+    width: 30%;
+    height: 50%;
+    background: white;
+    float: left;
+    margin-right: 3%;
+    background: #403f3f;
+    margin-top: 10%;
+}
+.creative-block:nth-child(3) {
+    margin-right: 0;
+}
+.bg {
+    width: 100%;
+    height: 60%;
+
+}
+#ds1 {
+    background: url("image/bg3.jpg");
+    background-size: cover;
+}
+#ds2 {
+    background: url("image/bg4.jpg");
+    background-size: cover;
+}
+#ds3 {
+    background: url("image/bg5.jpg");
+    background-size: cover;
+}
+.cont-cr {
+    width:100%;
+    height:40%;
+    margin-top: 5%;
+    background: #737375;
+}
+#ds4 {
+    background: url("image/img12.jpg");
+    background-size: cover;
+}
+#ds5 {
+    background: url("image/img13.jpg");
+    background-size: cover;
+}
+#ds6 {
+    background: url("image/img14.jpg");
+    background-size: cover;
+}
+#map {
+    width: 100%;
+    height: 60%;
+    background: #3a3c3d;
+    border: 10px solid #403f3f;
+}
+.bard {
+    width: 45%;
+    height: 400px;
+    margin-right: 5%;
+    position: relative;
+    top: 100px;
+    background: #403f3f; 
+}
+.bard:nth-child(1) {
+    margin-right: 0;
 }
