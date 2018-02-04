@@ -1,7 +1,12 @@
-function myMap() {
-    var mapCanvas = document.getElementById("map");
-    var mapOptions = {
-      center: new google.maps.LatLng(51.5, -0.2), zoom: 10
-    };
-    var map = new google.maps.Map(mapCanvas, mapOptions);
-  }
+$(document).ready(function(){
+    $(".abs-menu").slideToggle('0');
+
+    $(".button").click(function(){
+
+
+                    $(".block").slideToggle('slow');
+
+
+    });
+
+});
